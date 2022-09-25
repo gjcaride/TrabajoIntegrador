@@ -1,0 +1,146 @@
+/* con * se le da formato a todo el documento */
+/* siempre se cierra con ; */
+/* con un ."nombre de clase" se le da formato a una clase (clase es como el id) */
+/* con nth seleccionas a todos los elementos con la clase ".element" y modificas al numero 2 */
+/* 1_ Display flex al contenedor 
+.container {
+    display: flex;
+    gap: 5px;
+    font-size: 30px;
+    color: yellow; color de la letra*/
+  
+  /* 2_ Le definis un ancho, alto y background, segun lo que quieras */
+  
+  /* .element1 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    float: right;
+    gap: 5px; /* distancia entre imagenes */
+    /* font-size 30px;  tamaño letra */
+    /* color: rgb(0, 0, 0); /*color letra */
+    /* align-content: flex-start /* alineamiento */
+    /* flex-wrap: flex-start; /* ubicación del flex 
+  }   
+    gap: 5px; /* distancia entre imagenes */
+    /* font-size: 30px; /* tamaño letra */
+    /* color: rgb(0, 0, 0); /*color letra */
+    /* align-content:inherit; /* alineamiento */
+    /* flex-wrap:center; /* ubicación del flex */
+    /*
+  .element3 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    float:left;
+    gap: 5px; /* distancia entre imagenes */
+   /* font-size: 30px; /* tamaño letra */
+   /* color: rgb(5, 4, 4); /*color letra */
+   /* align-content:flex-end /* alineamiento */
+   /* flex-wrap: flex-end; /* ubicación del flex */
+
+  /*
+  }
+  .primero /* # para id */
+     
+   /* display: block;
+    position: relative;
+    text-align: center;
+
+
+
+  /* background-color: rgba(255,255,255,.8);  */
+
+  :root {
+    --gris-oscuro: #353A40;
+    --gris-claro: #9C9BA0;
+    --verde: #29A744;
+}
+
+header {
+    background-color: #353A40;
+    text-align: center;
+}
+
+.nav-conf {
+    padding: 10px 5%;
+}
+.nav-h {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-h:visited {
+    color: white;
+}
+
+.nav-l {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.fondogris {
+    background-color: #353A40;
+
+}
+.nav-l a {
+    color: var(--gris-claro);
+}
+
+.nav-l a:hover {
+    color: white;
+}
+
+.nav-l a:active {
+    color: white;
+}
+
+.nav-l a:visited {
+    color: var(--gris-claro);
+}
+
+.verde {
+    color: #29A744 !important;
+}
+
+
+.carousel-inner img {
+    max-height: 900px;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.carousel-leyenda {
+    z-index: 999;
+    max-width: 750px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: white;
+    text-align: right;
+}
+
+.carousel-leyenda > h5 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.carousel-leyenda > p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.hablar::placeholder {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #1E4C66;
+}
+
+footer > .nav > .nav-item > a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
